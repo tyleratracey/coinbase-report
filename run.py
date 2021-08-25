@@ -60,7 +60,7 @@ def getDollarCostAverageWithoutFees(asset, tax, headers, data):
 
 def main():
 
-    transactionHistory = open('csv/coinbase-history.csv', 'r')
+    transactionHistory = open('coinbase-history.csv', 'r')
     reader = csv.reader(transactionHistory)
     headers = next(reader, None)
 
