@@ -1,6 +1,8 @@
 # coinbase-report
 **This program will use your Coinbase transaction history to generate a basic tax report based on the current price of the asset.**
 
+![alt text](https://github.com/tyleratracey/coinbase-report/blob/main/png/example_run.png?raw=true)
+
 ## Prerequisites
 
 - This program uses **python3** and **pip3** to install the dependencies.
@@ -41,7 +43,7 @@ pip3 install -r requirements.txt
 
 ![alt text](https://github.com/tyleratracey/coinbase-report/blob/main/png/csv.png?raw=true)
 
-- Open up the config.json file and add the assets you would like to run a report on as a comma separated list **("BTC","ETH","ADA")**, and set the value of your tax percentage. You can find out your tax bracket information online. Normally in the US, long term capital gains tax is around 15% **(0.15)**.
+- Open up the **config.json** file and add the assets you would like to run a report on as a comma separated list **Example: "BTC,ETH,ADA"**, and set the value of your tax percentage. You can find out your tax bracket information online. Normally in the US, long term capital gains tax is around 15% **Example: "0.15"**.
 
 ![alt text](https://github.com/tyleratracey/coinbase-report/blob/main/png/config.png?raw=true)
 
@@ -58,9 +60,9 @@ python3 run.py
 **If you found this program useful, please consider donating!**
 
 ```
-BTC Address: 
+BTC Address: 3CgpTmhi8NCcYZmFQU7m2MLkqDjQNoGHSG
 ETH Address: 0xA71D242C222DADe9810f231465189a7b8669e154
-ADA Address: 
+ADA Address: addr1qylrz6cal0k9lu9p3jang2runtv8zd3v9wmu0jd0xaa7edqmjx2srq8kpxjuy2ewfun02hzdysyga6qx2phqa4e9v9msdvvde7
 ```
 
 
