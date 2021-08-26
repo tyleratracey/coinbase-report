@@ -39,7 +39,7 @@ pip3 install -r requirements.txt
 
 ## Running the program
 
-- Copy and paste the CSV file you just downloaded into the coinbase-history.csv file, and remove the first 7 lines so you are left with just the headers and data.
+- Copy and paste the CSV file you just downloaded into the coinbase-history.csv file, **and remove the first 7 lines so you are left with just the headers and data.**
 
 ![alt text](https://github.com/tyleratracey/coinbase-report/blob/main/png/csv.png?raw=true)
 
